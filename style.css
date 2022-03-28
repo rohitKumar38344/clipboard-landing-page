@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap");
+
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1;
+  color: hsl(210, 10%, 33%);
+}
+
+.section-intro {
+  padding: 9.6rem 9.6rem;
+  padding-bottom: 12.8rem;
+  text-align: center;
+  background-image: url(images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo-container {
+  /* text-align: center; */
+  margin-bottom: 3.2rem;
+}
+
+.company-logo {
+  text-align: center;
+}
+
+.heading-primary {
+  font-size: 4.4rem;
+  font-weight: 600;
+  margin-bottom: 2.4rem;
+  text-align: center;
+}
+
+.text {
+  color: hsl(201, 11%, 66%);
+  margin-bottom: 3.2rem;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1.6rem 3.2rem;
+  color: #fff;
+  border-radius: 3.2rem;
+}
+
+.btn-ios {
+  background-color: hsl(171, 66%, 44%);
+  margin-right: 1.6rem;
+  box-shadow: 0 4px hsl(171deg 66% 32%);
+}
+
+.btn-mac {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 0 4px hsl(233deg 75% 55%);
+}
+
+.section-feature {
+  padding-bottom: 12.8rem;
+}
+
+.feature-intro {
+  text-align: center;
+}
+
+.feature-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding-right: 9.6rem;
+}
+
+.heading-secondary {
+  font-size: 3.6rem;
+  margin-bottom: 2.4rem;
+}
+
+.feature-container img {
+  width: 80%;
+  justify-self: start;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.feature-text {
+  /* text-align: start; */
+  margin-bottom: 4.8rem;
+  color: hsl(201, 11%, 66%);
+}
+
+.section-clipboard {
+  text-align: center;
+}
+
+.section-clipboard img {
+  width: 60%;
+}
+
+.workflow-features {
+  display: flex;
+
+  flex-wrap: wrap;
+  column-gap: 2.4rem;
+  padding: 0 9.6rem;
+}
+
+.feature {
+  flex: 0 1 35rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature img {
+  margin-bottom: 3.2rem;
+}
+
+.heading-tertiary {
+  color: hsla(210, 10%, 33%);
+  margin-bottom: 1.6rem;
+}
+
+.featured-in {
+  display: flex;
+  gap: 8rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12.8rem 9.6rem;
+}
+
+.featured-in img {
+  width: 12rem;
+}
+.cta {
+  text-align: center;
+  padding-bottom: 12.8rem;
+}
+
+.footer-container {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 3fr;
+  column-gap: 4.8rem;
+  align-items: center;
+
+  background-color: hsl(201deg 11% 66% / 11%);
+  color: hsl(210, 10%, 33%);
+  height: 15rem;
+}
+
+.footer-container .brand-logo {
+  width: 4.8rem;
+}
+
+.logo-col {
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+}
+
+.logo-col .footer-link {
+  text-align: center;
+}
+
+.nav-col .footer-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  justify-content: center;
+}
+
+.footer-nav {
+  list-style: none;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.social-handles .footer-nav {
+  display: flex;
+  gap: 1.6rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-media {
+  width: 2.4rem;
+}

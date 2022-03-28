@@ -1,0 +1,130 @@
+/* screen size: 1050px */
+@media (max-width: 65em) {
+  .featured-in {
+    padding: 12.8rem 8rem;
+    gap: 6.4rem;
+  }
+}
+
+/* screen size: 900px */
+@media (max-width: 56em) {
+  html {
+    font-size: 52.5%;
+  }
+
+  .workflow-features {
+    justify-content: center;
+  }
+}
+
+/* screen size: 750px */
+@media (max-width: 47em) {
+  .company-logo {
+    width: 10rem;
+  }
+
+  .heading-primary {
+    font-size: 3.6rem;
+  }
+
+  .heading-secondary {
+    font-size: 3rem;
+  }
+
+  .featured-in {
+    padding: 12.8rem 4.8rem;
+    gap: 4.8rem;
+  }
+}
+
+/* screen size: 550px */
+@media (max-width: 34em) {
+  .section-intro {
+    padding: 6.4rem;
+  }
+
+  .featured-in {
+    flex-direction: column;
+    gap: 4.8rem;
+    padding: 9.6rem 8rem;
+  }
+
+  .featured-in img {
+    width: 15rem;
+  }
+
+  .feature-container {
+    grid-template-columns: 1fr;
+    padding: 8rem;
+  }
+
+  .feature-container img {
+    justify-self: center;
+  }
+
+  .features {
+    margin-top: 4.8rem;
+    text-align: center;
+  }
+
+  .feature-text {
+    line-height: 1.5;
+  }
+
+  .footer-container {
+    grid-template-columns: 1fr;
+    column-gap: 0;
+    row-gap: 4.8rem;
+    text-align: center;
+    height: auto;
+  }
+
+  .social-handles .footer-nav {
+    gap: 3.2rem;
+  }
+}
+
+/* screen size: 400px */
+@media (max-width: 25em) {
+  .section-intro,
+  .feature-container,
+  .section-clipboard {
+    padding: 9.6rem 2.4rem;
+  }
+
+  .section-feature {
+    padding: 0 2.4rem;
+  }
+
+  .section-clipboard {
+    padding-top: 0;
+  }
+
+  .workflow-features {
+    padding: 0 2.4rem;
+  }
+
+  .cta {
+    padding: 9.6rem 2.4rem 9.6rem 2.4rem;
+  }
+
+  .footer-container {
+    padding: 2.4rem;
+  }
+
+  .heading-primary {
+    font-size: 2.8rem;
+  }
+
+  .heading-secondary {
+    font-size: 2.4rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2rem;
+  }
+
+  .btn-ios {
+    margin-bottom: 2.4rem;
+  }
+}
