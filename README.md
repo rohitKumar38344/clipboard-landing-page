@@ -34,8 +34,8 @@ Mobile
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [repo](https://github.com/rohitKumar38344/clipboard-landing-page)
+- Live Site URL: [live site URL](https://clipboard-landing-pagesoln.netlify.app/)
 
 ## My process
 
